@@ -10,7 +10,7 @@
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="7" />
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="IAmTheOneTheyCallNeo/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="IAmTheOneTheyCallNeo/android" />
