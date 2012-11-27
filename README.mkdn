@@ -19,10 +19,10 @@ Then to sync up:
 
 My default j flag is set to "7" (which utilizes 6 cores)
 
-The normal default is "4" so if you wish to overide my new defaultfor your sync, do:
+The normal default is "4" so if you wish to overide my new default for your sync, do:
 
     repo sync -j4
 
-I have conveniently included all commits so all you will need to do after is brunch then build.
+I have conveniently included all commits so all you will need to do after is brunch ,then build.
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
