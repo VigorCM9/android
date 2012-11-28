@@ -23,6 +23,7 @@ The normal default is "4" so if you wish to overide my new default for your sync
 
     repo sync -j4
 
-I have conveniently included all commits so all you will need to do after is brunch ,then build.
+I have conveniently included all the commits from RAGE ICS Including the Linaro 12.10 Tool Chain 
+so all you will need to do after syncing is brunch ,then build.
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
