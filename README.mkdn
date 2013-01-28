@@ -31,11 +31,25 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/Chad0989/android.git -b jellybean
+    repo init -u git://github.com/VigorCM9/android.git -b jellybean
 
 Then to sync up:
 
     repo sync
+
+Get prebuilts:
+
+    ./vendor/cm/get-prebuilts
+
+Build environment:
+
+    . build/envsetup.sh
+
+Start building:
+
+    brunch vigor
+
+I have conveniently included the Linaro 12.12 Tool Chain
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 
