@@ -268,5 +268,5 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="ics" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" />
 </manifest>
