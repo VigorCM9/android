@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a this command:
 
-    repo init -u git://github.com/VigorCM9/android.git -b ics
+    repo init -u git://github.com/VigorCM9/android.git -b ics-exp
 
 Then to sync up:
 
@@ -21,3 +21,14 @@ I have conveniently included the Linaro 12.10 Tool Chain
 so all you will need to do after syncing is build the setup, get the pre-builts, lunch and brunch.
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+
+
+About ICS-EXP
+---------------
+
+This branch will sync multiple cherry-picks in automatically.
+
+It pulls an alternative of the following:
+frameworks_base
+settings
+mms
