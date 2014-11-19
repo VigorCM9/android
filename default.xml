@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
   <remote  name="github"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
-  <remote  name="gh"
-           fetch="https://github.com/"
-           review="13.02" />
+
   <default revision="refs/heads/ics"
            remote="github"
+           sync-c="true"
            sync-j="4" />
   <project path="build" name="VigorCM9/build">
     <copyfile src="core/root.mk" dest="Makefile" />
